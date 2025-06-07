@@ -1,0 +1,8 @@
+path=input('enter the path of the file to be copied : ')
+f=open(path,'r')
+g=open('D:\Programming - Python\Copyfile.txt','w')
+string=f.read()
+g.write(string)
+print('process done!!\nFile copied to the path : D:\Programming - Python\Copyfile.txt')
+f.close()
+g.close()
